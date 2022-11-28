@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>certificate</title>
-    <link rel="stylesheet" href="form.css">
+    <title>registration form</title>
 </head>
+
 <body>
-    <div class="mainDiv">
-<div class="border">
-    <div class="logo"></div>
-    <div class="headline">INTERNSHIP CERTIFICATE</div>
-    <div class="headline2">THIS IS CERTIFY THAT</div>
-    <div class="headline3">TEXT</div>
-    
-    <div class="pargraphDiv">
-        <div class="para1">BEARING USN _ _ _ _ _ _ _ OF _ _ _ _ _ _ _ _ _ _ _ _ HAS SUCCESSFULLY </div>
-        <div class="para2">COMPLETED THE INTERNSHIP ON _ _ _ _ _ _ _ FROM _ _ _ _ _ _ _  TO _ _ _ _ _ _ </div>
-        <div class="para3">AT ELLIPSONIC INDIA SOLUTION PVT LTD. BENGALURU</div>
-    </div>
-    <div class="bottom">
-        <div class="bottomDiv1">
-            <div class="line1"></div>
-            <div class="coordinate">COORDINATE</div>
-            <div class="text1">TEXT</div>
-        </div>
-        <div class="bottomDiv2">
-        <div class="line2"></div>
-        <div class="hr">HR</div>
-        <div class="text2">TEXT</div>
-    </div>
-    </div>
-</div>
-    </div>
+    <header>
+        <marquee><a href="https://onlineapply.itmuniversity.ac.in/">Admmision are open for 2022-2023</a></marquee>
+        <h2 style="margin-left: 460px;">REGISTRATION FORM</h2>
+    </header>
+    <main>
+        <section style="width:300px; height:400px; border: 2px solid rgb(7, 2, 95); padding-left: 70px; margin-top: -20px; margin-left: 400px; background-color: rgb(116, 116, 194);">
+            <form action="/action.javascript" style="margin-top: 10px">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter Name" required>
+                <br>
+                <br>  <label for="Rno">Roll number:</label><br>
+                <input type="text" id="Rno" name="Rno" placeholder="Enter roll" required>
+                <br>
+                <br>
+                <label for="pass">Enter a password:</label><br>
+                <input type="password" id="pass" name="pass" placeholder="********" required>
+                <br>
+                <br>
+                <textarea name="quary" id="quary" placeholder="please submmit your quary"></textarea>
+                <br>
+                <label>Please tick the sem</label>
+                <label for="101"><input type="radio" value="1st sem" name="mca" id="101">Sem 1<sup>st</sup></label>
+                <label for 102><input type="radio" value="1st sem" name="mca" id="102">Sem 2<sup>st</sup></label>
+                <br>
+                <br>
+                <h3>please choose the campus</h3>
+                <select name="campus" id="campus">
+                    <option value="Sithouli">Sithouli</option>
+                    <option value="Turari">Turari</option>
+                </select>
+                <br>
+                <br>
+                <button>Submmit</button>
+                <input type="reset" value="reset">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
